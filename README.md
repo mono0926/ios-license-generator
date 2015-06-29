@@ -3,6 +3,8 @@ ios-license-generator
 
 ## Description
 
+Generate an iOS app lisence from a markdown file.
+
 ## Usage
 
 ## Install
@@ -10,12 +12,12 @@ ios-license-generator
 To install, use `go get`:
 
 ```bash
-$ go get -d github.com/Masayuki Ono/ios-license-generator
+$ go get -d github.com/mono0926/ios-license-generator
 ```
 
 ## Contribution
 
-1. Fork ([https://github.com/Masayuki Ono/ios-license-generator/fork](https://github.com/Masayuki Ono/ios-license-generator/fork))
+1. Fork ([https://github.com/mono0926/ios-license-generator/fork](https://github.com/mono0926/ios-license-generator/fork))
 1. Create a feature branch
 1. Commit your changes
 1. Rebase your local changes against the master branch
@@ -25,4 +27,4 @@ $ go get -d github.com/Masayuki Ono/ios-license-generator
 
 ## Author
 
-[Masayuki Ono](https://github.com/Masayuki Ono)
+[Masayuki Ono](https://github.com/mono0926)
