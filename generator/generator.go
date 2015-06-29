@@ -31,13 +31,14 @@ func GenerateLicenseList(listPath string, itemPath string, names []string) strin
     return generateImpl(listPath, i)
 }
 
-func GenerateLicense(t string, title string, body string) string {
+func GenerateLicense(src string, title string, body string) string {
     l := License{title, body}
-    return generateImpl(t, l)
+    return generateImpl(src, l)
 }
 
-func generateImpl(t string, item interface{}) string {
-    tpl := template.Must(template.ParseFiles(t))
+func generateImpl(src string, item interface{}) string {
+    tpl := template.New("template")
+    tpl.Parse(src)
     var b bytes.Buffer
     tpl.Execute(&b, item)
     s := b.String()

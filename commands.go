@@ -65,12 +65,18 @@ func doGenerate(c *cli.Context) {
             log.Println("invalid license line")
             continue
         }
-        s := generator.GenerateLicense("template/License.plist", name, body)
+        licenseData, e := Asset("template/License.plist")
+        assert(e)
+        s := generator.GenerateLicense(string(licenseData), name, body)
         log.Println(s)
         ioutil.WriteFile(fmt.Sprintf("%s/%s.plist", outDir, name), []byte(s), 0644)
         names = append(names, name)
     }
-    s := generator.GenerateLicenseList("template/LicenseList.plist", "template/LicenseListItem.plist", names)
+    listData, e := Asset("template/LicenseList.plist")
+    assert(e)
+    itemData, e := Asset("template/LicenseListItem.plist")
+    assert(e)
+    s := generator.GenerateLicenseList(string(listData), string(itemData), names)
     log.Println(s)
     ioutil.WriteFile(fmt.Sprintf("%s/LicenseList.plist", outDir), []byte(s), 0644)
 }
