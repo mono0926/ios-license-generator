@@ -12,7 +12,7 @@ Generate an iOS app lisence from a markdown file.
 To install, use `go get`:
 
 ```bash
-$ go get -d github.com/mono0926/ios-license-generator
+$ go get -u github.com/mono0926/ios-license-generator
 ```
 
 ## Contribution
