@@ -5,6 +5,8 @@ ios-license-generator
 
 Generate an iOS app lisence from a markdown file.
 
+Article: [iOSアプリのライセンス一覧のplistを半自動生成して設定画面にキレイに表示するプログラムをGo言語で作った - Qiita](http://qiita.com/mono0926/items/973752b69c881e00c507)
+
 ## Usage
 
 ## Install
