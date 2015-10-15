@@ -26,7 +26,7 @@ func Fetch(line string) (match bool, key string, license string) {
 func Parse(line string) (match bool, key string, url string) {
     log.Println(line)
 
-    r, _ := regexp.Compile(`\[[a-zA-Z0-9]+\]:`)
+    r, _ := regexp.Compile(`\[[\-\.\w]+\]:`)
 
     lib := r.FindString(line)
     fmt.Println(lib)
