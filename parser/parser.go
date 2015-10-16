@@ -36,8 +36,7 @@ func Parse(line string) (match bool, key string, url string) {
 		log.Printf("%s: %s", lib, u)
 
 		u = strings.Replace(u, "https://github.com/", "https://raw.githubusercontent.com/", 1)
-		u = strings.Replace(u, "/blob/master/", "/master/", 1)
-		u = strings.Replace(u, "/blob/develop/", "/develop/", 1)
+		u = strings.Replace(u, "/blob/", "/", 1)
 
 		return true, lib, u
 	}
