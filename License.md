@@ -1,6 +1,6 @@
 | ライブラリ名 | ライセンス | 取り込み方 |備考 |
 | --- | --- | ---  | ---  |
-| MagicalRecord | [LLC][MaricalRecord] | CocoaPods | |
+| MagicalRecord | [LLC][MagicalRecord] | CocoaPods | |
 | BlocksKit | [AS IS][BlocksKit] | CocoaPods |
 | HockeySDK | [MIT][HockeySDK] | CocoaPods | |
 | FlurrySDK | [AS IS][FlurrySDK] | CocoaPods | |
@@ -14,7 +14,7 @@
 | Alamofire | [AS IS][Alamofire] | Carthage | |
 | SwiftyJSON | [MIT][SwiftyJSON] | Carthage | |
 
-[MaricalRecord]:https://github.com/magicalpanda/MagicalRecord/blob/develop/LICENSE
+[MagicalRecord]:https://github.com/magicalpanda/MagicalRecord/blob/develop/LICENSE
 [BlocksKit]:https://github.com/zwaldowski/BlocksKit/blob/master/LICENSE
 [HockeySDK]:https://github.com/bitstadium/HockeySDK-iOS/blob/develop/LICENSE
 [FlurrySDK]:https://github.com/AntonPalich/Flurry/blob/master/Licenses/Flurry-LICENSE.txt
