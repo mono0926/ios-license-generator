@@ -14,9 +14,9 @@
 | Alamofire | [AS IS][Alamofire] | Carthage | |
 | SwiftyJSON | [MIT][SwiftyJSON] | Carthage | |
 
-[MagicalRecord]:https://github.com/magicalpanda/MagicalRecord/blob/develop/LICENSE
+[MagicalRecord]:https://github.com/magicalpanda/MagicalRecord/blob/master/LICENSE
 [BlocksKit]:https://github.com/zwaldowski/BlocksKit/blob/master/LICENSE
-[HockeySDK]:https://github.com/bitstadium/HockeySDK-iOS/blob/develop/LICENSE
+[HockeySDK]:https://github.com/bitstadium/HockeySDK-iOS/blob/master/LICENSE
 [FlurrySDK]:https://github.com/AntonPalich/Flurry/blob/master/Licenses/Flurry-LICENSE.txt
 [SVProgressHUD]:https://github.com/TransitApp/SVProgressHUD/blob/master/LICENSE.txt
 [SDWebImage]:https://github.com/rs/SDWebImage/blob/master/LICENSE
