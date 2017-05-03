@@ -1,4 +1,4 @@
-ios-license-generator
+# ios-license-generator
 
 **Develpment in stopped.**
 Go to [mono0926/LicensePlist](https://github.com/mono0926/LicensePlist), which is new version of this, written by **Swift**.
