@@ -1,13 +1,15 @@
 package reader
+
 import (
-    "testing"
-    "fmt"
+	"fmt"
+	"testing"
 )
+
 func TestParse(t *testing.T) {
-    v, e := read("../template/License.plist")
-    if e != nil {
-        t.Errorf("error: %s", e)
-    } else {
-        fmt.Println(v)
-    }
+	v, e := read("../template/License.plist")
+	if e != nil {
+		t.Errorf("error: %s", e)
+	} else {
+		fmt.Println(v)
+	}
 }
